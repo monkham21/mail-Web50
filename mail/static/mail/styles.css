@@ -1,0 +1,23 @@
+textarea {
+    min-height: 400px;
+}
+
+#emails-view > .boxes {
+    display: flex;
+    padding: 5px;
+    border: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.address {
+    flex-grow: 1;
+    font-weight: bold;
+}
+
+.subject {
+    flex-grow: 8;
+}
+
+label {
+    font-weight: bold;
+}
